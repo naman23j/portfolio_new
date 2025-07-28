@@ -3,30 +3,30 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 const Achievements = () => {
   const achievements = [
     {
-      quote: "Successfully developed and deployed 15+ full-stack web applications using React, Node.js, and MongoDB with 99.9% uptime.",
+      quote: "Successfully developed and deployed 5+ full-stack web applications using React, Node.js, and MongoDB.",
       name: "Full-Stack Development",
       title: "Web Applications"
     },
     {
-      quote: "Completed advanced React development certification from Meta, mastering hooks, context, and performance optimization techniques.",
-      name: "Meta React Developer",
-      title: "Professional Certificate"
+      quote: "Completed Database Management System certification from NPTEL, mastering performance optimization techniques.",
+      name: "Database Management",
+      title: "NPTEL Certificate"
     },
     {
-      quote: "Led a team of 5 developers to deliver a complex e-commerce platform ahead of schedule, resulting in 40% increase in client satisfaction.",
+      quote: "Worked collaboratively in multiple Hackathons, showcasing teamwork and innovative problem-solving skills.",
       name: "Team Leadership",
       title: "Project Management"
     },
     {
-      quote: "Achieved AWS Solutions Architect certification, demonstrating expertise in cloud infrastructure and scalable application design.",
-      name: "AWS Certified",
+      quote: "Won a bounty for completing a fullstack blockchain application.",
+      name: "Blockchain Development",
       title: "Solutions Architect"
     },
-    {
-      quote: "Contributed to 20+ open-source projects on GitHub with over 1000 stars combined, helping developers worldwide solve complex problems.",
-      name: "Open Source Contributor",
-      title: "GitHub Projects"
-    },
+    // {
+    //   quote: "Acheived .",
+    //   name: "Open Source Contributor",
+    //   title: "GitHub Projects"
+    // },
     {
       quote: "Optimized application performance by 60% through code splitting, lazy loading, and advanced caching strategies.",
       name: "Performance Optimization",
