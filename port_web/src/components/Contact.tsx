@@ -117,22 +117,22 @@ const Contact = () => {
       {
         title: "GitHub",
         icon: <IconBrandGithub className="h-full w-full" />,
-        href: "#",
+        href: "https://github.com/naman23j",
       },
       {
         title: "LinkedIn",
         icon: <IconBrandLinkedin className="h-full w-full" />,
-        href: "#",
+        href: "https://www.linkedin.com/in/naman-dangi-48b16a291",
       },
       {
         title: "Twitter",
         icon: <IconBrandX className="h-full w-full" />,
-        href: "#",
+        href: "https://twitter.com/NamanDangi1847",
       },
       {
         title: "Email",
         icon: <IconMail className="h-full w-full" />,
-        href: "mailto:hello@example.com",
+        href: "mail to:namandangi26@gmail.com",
       },
     ];
 

@@ -11,11 +11,11 @@ const Skills = () => {
       title: "Frontend Development",
       icon: <Code className="w-8 h-8" />,
       color: "text-primary",
-      bgColor: "bg-gradient-primary",
+      bgColor: "bg-gradient-to-r from-primary to-primary-glow",
       technologies: [
         "HTML5", "CSS3", "JavaScript", "TypeScript", 
-        "React.js", "Next.js", "Vue.js", "Tailwind CSS",
-        "Sass/SCSS", "Bootstrap", "Material-UI", "Framer Motion"
+        "React.js", "Tailwind CSS",
+         "Bootstrap", "Material-UI", "Framer Motion"
       ]
     },
     {
@@ -25,9 +25,9 @@ const Skills = () => {
       color: "text-accent",
       bgColor: "bg-gradient-accent",
       technologies: [
-        "Node.js", "Express.js", "Python", "Django",
-        "Flask", "FastAPI", "REST APIs", "GraphQL",
-        "JWT", "OAuth", "Microservices", "Docker"
+        "Node.js", "Express.js"
+        , "REST APIs", 
+        "JWT", "OAuth", "Docker"
       ]
     },
     {
@@ -37,9 +37,9 @@ const Skills = () => {
       color: "text-primary-glow",
       bgColor: "bg-gradient-to-r from-primary to-primary-glow",
       technologies: [
-        "PostgreSQL", "MongoDB", "MySQL", "Redis",
-        "Firebase", "Supabase", "Prisma", "TypeORM",
-        "Database Design", "Query Optimization", "Migration", "Backup"
+         "MongoDB", "MySQL",
+        "Firebase", "Supabase", 
+        "Database Design"
       ]
     },
     {
@@ -51,7 +51,7 @@ const Skills = () => {
       technologies: [
         "Figma", "Adobe XD", "Sketch", "Photoshop",
         "User Research", "Wireframing", "Prototyping", "Design Systems",
-        "Accessibility", "Mobile First", "Responsive Design", "Usability Testing"
+        "Accessibility", 
       ]
     }
   ];
@@ -100,11 +100,11 @@ const Skills = () => {
                 </Card>
 
                 {/* Back Face */}
-                <Card className="absolute inset-0 w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-card/90 backdrop-blur-sm border-border overflow-hidden">
+                <Card className="absolute inset-0 w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-black backdrop-blur-sm border-border overflow-hidden">
                   <div className="p-6 h-full flex flex-col">
                     <div className="flex items-center gap-3 mb-4 flex-shrink-0">
                       <div className={`p-2 rounded-lg ${category.bgColor}`}>
-                        <div className="text-white">
+                        <div className="text-white ">
                           {category.icon}
                         </div>
                       </div>
@@ -118,7 +118,7 @@ const Skills = () => {
                         {category.technologies.map((tech, index) => (
                           <div 
                             key={index}
-                            className="text-xs text-muted-foreground bg-background/40 px-2 py-1.5 rounded-md hover:bg-primary/10 hover:text-primary transition-colors text-center flex items-center justify-center min-h-[32px] leading-tight"
+                            className="text-md text-muted-foreground bg-background/40 px-2 py-1.5 rounded-md hover:bg-primary/10 hover:text-primary transition-colors text-center flex items-center justify-center min-h-[32px] leading-tight"
                           >
                             {tech}
                           </div>

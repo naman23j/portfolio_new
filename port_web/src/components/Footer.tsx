@@ -46,10 +46,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Connect</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li className="hover:text-foreground cursor-pointer transition-colors">Email</li>
-              <li className="hover:text-foreground cursor-pointer transition-colors">LinkedIn</li>
-              <li className="hover:text-foreground cursor-pointer transition-colors">GitHub</li>
-              <li className="hover:text-foreground cursor-pointer transition-colors">Resume</li>
+              <li  className="hover:text-foreground cursor-pointer transition-colors"><a href="mailto:namandangi26@gmail.com">Email</a></li>
+              <li className="hover:text-foreground cursor-pointer transition-colors"><a href="https://www.linkedin.com/in/naman-dangi-48b16a291">LinkedIn</a></li>
+              <li className="hover:text-foreground cursor-pointer transition-colors"><a href="https://github.com/naman23j">GitHub</a></li>
+              <li className="hover:text-foreground cursor-pointer transition-colors"><a href="https://twitter.com/NamanDangi1847">Twitter</a></li>
             </ul>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Footer = () => {
         
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 Portfolio. Built with React & Three.js
+            © Portfolio. Built with love and passion.
           </p>
           <div className="flex gap-4 text-sm text-muted-foreground">
             <span className="hover:text-foreground cursor-pointer transition-colors">Privacy Policy</span>
