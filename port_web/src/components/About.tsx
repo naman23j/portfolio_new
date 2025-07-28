@@ -8,13 +8,13 @@ const About = () => {
       content: (
         <div>
           <p className="text-muted-foreground text-sm md:text-base font-normal mb-8">
-            Focused on mastering modern web technologies including React, TypeScript, and Next.js. 
-            Built multiple full-stack applications and contributed to open-source projects.
+            Focused on mastering modern web technologies including HTML, CSS, and Javascript. 
+            Built multiple web applications and projects. Along with it, I gained knowledge in C.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-card/50 p-4 rounded-lg border border-border">
-              <h4 className="text-primary font-semibold">Full-Stack Development</h4>
-              <p className="text-muted-foreground text-sm">React, Node.js, MongoDB</p>
+              <h4 className="text-primary font-semibold">Web Development</h4>
+              <p className="text-muted-foreground text-sm">HTML, CSS, JavaScript</p>
             </div>
             <div className="bg-card/50 p-4 rounded-lg border border-border">
               <h4 className="text-primary font-semibold">UI/UX Design</h4>
@@ -29,17 +29,21 @@ const About = () => {
       content: (
         <div>
           <p className="text-muted-foreground text-sm md:text-base font-normal mb-8">
-            Expanding expertise into AI/ML integration, advanced 3D web experiences, and 
-            enterprise-level application architecture. Focusing on performance optimization and scalability.
+            Expanding expertise into advanced 3D web experiences, and 
+            enterprise-level application architecture. Focusing on performance optimization and scalability. Created Full Stack apps with React, Node.js, and MongoDB.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-card/50 p-4 rounded-lg border border-border">
-              <h4 className="text-accent font-semibold">AI Integration</h4>
-              <p className="text-muted-foreground text-sm">OpenAI APIs, Machine Learning</p>
+              <h4 className="text-accent font-semibold">Full-Stack Development</h4>
+              <p className="text-muted-foreground text-sm">React, Node.js, MongoDB</p>
             </div>
             <div className="bg-card/50 p-4 rounded-lg border border-border">
               <h4 className="text-accent font-semibold">3D Web Experiences</h4>
               <p className="text-muted-foreground text-sm">Three.js, WebGL</p>
+            </div>
+             <div className="bg-card/50 p-4 rounded-lg border border-border">
+              <h4 className="text-accent font-semibold">Programming Languages</h4>
+              <p className="text-muted-foreground text-sm">C++, Java</p>
             </div>
           </div>
         </div>
@@ -52,10 +56,11 @@ const About = () => {
           <p className="text-muted-foreground text-sm md:text-base font-normal mb-8">
             Aiming to become a technical lead in innovative web development projects, 
             contributing to cutting-edge technologies and mentoring the next generation of developers.
+            exploring machine learning and AI integration in web applications.
           </p>
           <div className="bg-gradient-primary/10 p-4 rounded-lg border border-primary/20">
             <h4 className="text-primary-glow font-semibold">Vision</h4>
-            <p className="text-muted-foreground text-sm">Building the future of web experiences</p>
+            <p className="text-muted-foreground text-sm">Building the future of web experiences , exploring machine learning and AI integration.</p>
           </div>
         </div>
       ),

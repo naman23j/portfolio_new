@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Zap, Code, User } from "lucide-react";
 import { Link } from "react-router-dom";
+import Resume from "@/assets/RESUME_NAMAN.pdf";
 
 const HeroWithName = () => {
   return (
@@ -31,7 +32,7 @@ const HeroWithName = () => {
       </p>
       
       <div className="flex flex-col sm:flex-row gap-4 mb-12">
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href= {Resume} target="_blank" rel="noopener noreferrer">
           <Button size="lg" className="bg-gradient-primary hover:shadow-glow transition-all duration-300 group">
             View Resume
             <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
